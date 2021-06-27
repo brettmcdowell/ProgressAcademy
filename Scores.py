@@ -4,7 +4,7 @@ def Progress_Academy():
     # Subroutine for the menu of the system that allows the end user to select which program to launch
     def menu():
         print("\nEnter 1 for the average score calculator\nEnter 2 for the progress score calculator")
-        menu_selection = input('')
+        menu_selection = input("Input: ")
         if menu_selection == '1':
             # Executes the average score calculator subroutine
             Average_Score()
@@ -37,6 +37,12 @@ def Progress_Academy():
         science_actual = int(input("Please enter the student's science score out of 100: "))
         average_score_final = AverageScore(maths_actual, english_actual, science_actual)
         print(AverageScore.Average_calculation(average_score_final))
+        print("\nPlease enter 1 to calculate another average score\nPlease enter 2 to go back to the menu\nPlease enter any other key to quit")
+        continue_option = input("Input: ")
+        if continue_option == '1':
+            Average_Score()
+        elif continue_option == '2':
+            menu()
 
     # Subroutine for the progress score calculator function referenced in Task 2
     def Progress_Score():
@@ -69,6 +75,12 @@ def Progress_Academy():
         science_actual = int(input("Please enter the student's actual science score out of 100: "))
         progress_score_final = ProgressScore(maths_mock, maths_actual, english_mock, english_actual, science_mock, science_actual)
         print(ProgressScore.Progress_calculation(progress_score_final))
+        print("\nPlease enter 1 to calculate another progress score\nPlease enter 2 to go back to the menu\nPlease enter any other key to quit")
+        continue_option = input("Input: ")
+        if continue_option == '1':
+            Progress_Score()
+        elif continue_option == '2':
+            menu()
 
     menu()
 Progress_Academy()
