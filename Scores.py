@@ -28,7 +28,8 @@ def Progress_Academy():
 
             # Subroutine that calculates the student's average score and returns the result
             def Average_calculation(self):
-                average_total = (self.maths_actual + self.english_actual + self.science_actual) // 3
+                average_total = (self.maths_actual + self.english_actual + self.science_actual) / 3
+                average_total = round(average_total, 2)
                 return "Student's average score is " + str(average_total)
 
         # Allows the end user to input the three scores of the student and then calculates and prints the average score
