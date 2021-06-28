@@ -57,6 +57,9 @@ def Progress_Academy():
             Average_Score()
         elif continue_option == '2':
             menu()
+        else:
+            print("\nSYSTEM QUIT")
+            sys.exit()
 
     # Subroutine for the progress score calculator function referenced in Task 2
     def Progress_Score():
@@ -116,10 +119,14 @@ def Progress_Academy():
             menu()
         else:
             print("\nSYSTEM QUIT")
+            sys.exit()
 
     # Subroutine for added lookup feature. End user can lookup a student's number and look at either their average or progress score
     def Lookup_Function():
         student_lookup = (input("\nPlease enter a student's number you would like the scores of: "))
+        if student_lookup == '':
+            print("\nInvalid input")
+            Lookup_Function()
         student_number_criteria = "Student " + str(student_lookup)
         # File containing all student numbers and their scores
         lookup_file = open('lookupfile.txt','r')
@@ -168,6 +175,7 @@ def Progress_Academy():
             # Executes the look up subroutine that allows the user to look up a student's scores
             Lookup_Function()
         elif menu_selection == '2':
+
             # Executes the menu subroutine that allows the user to go back to the main menu
             menu()
         else:
@@ -177,3 +185,4 @@ def Progress_Academy():
 
     menu()
 Progress_Academy()
+
