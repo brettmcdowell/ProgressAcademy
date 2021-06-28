@@ -1,5 +1,7 @@
 # System for Progress Academy to automate their student ranking using Average Test Score and Progress Score
 # Subroutine for the main program
+import sys
+
 def Progress_Academy():
     # Subroutine for the menu of the system that allows the end user to select which program to launch
     def menu():
@@ -34,8 +36,17 @@ def Progress_Academy():
 
         # Allows the end user to input the three scores of the student and then calculates and prints the average score
         maths_actual = int(input("\nPlease enter the student's maths score out of 100: "))
+        if maths_actual > 100:
+            print("Value too large")
+            Average_Score()
         english_actual = int(input("Please enter the student's english score out of 100: "))
+        if english_actual > 100:
+            print("Value too large")
+            Average_Score()
         science_actual = int(input("Please enter the student's science score out of 100: "))
+        if science_actual > 100:
+            print("Value too large")
+            Average_Score()
         average_score_final = AverageScore(maths_actual, english_actual, science_actual)
         print(AverageScore.Average_calculation(average_score_final))
         print("\nPlease enter 1 to calculate another average score\nPlease enter 2 to go back to the menu\nPlease enter any other key to quit")
@@ -44,6 +55,8 @@ def Progress_Academy():
             Average_Score()
         elif continue_option == '2':
             menu()
+        else:
+            sys.exit()
 
     # Subroutine for the progress score calculator function referenced in Task 2
     def Progress_Score():
@@ -69,11 +82,29 @@ def Progress_Academy():
 
         # Allows end user to input the scores of the student and then calculates and prints the progress score
         maths_mock = int(input("\nPlease enter the student's mock maths score out of 100: "))
+        if maths_mock > 100:
+            print("Value too large")
+            Progress_Score()
         maths_actual = int(input("Please enter the student's actual maths score out of 100: "))
+        if maths_actual > 100:
+            print("Value too large")
+            Progress_Score()
         english_mock = int(input("Please enter the student's mock english score out of 100: "))
+        if english_mock > 100:
+            print("Value too large")
+            Progress_Score()
         english_actual = int(input("Please enter the student's actual english score out of 100: "))
+        if english_actual > 100:
+            print("Value too large")
+            Progress_Score()
         science_mock = int(input("Please enter the student's mock science score out of 100: "))
+        if science_mock > 100:
+            print("Value too large")
+            Progress_Score()
         science_actual = int(input("Please enter the student's actual science score out of 100: "))
+        if science_actual > 100:
+            print("Value too large")
+            Progress_Score()
         progress_score_final = ProgressScore(maths_mock, maths_actual, english_mock, english_actual, science_mock, science_actual)
         print(ProgressScore.Progress_calculation(progress_score_final))
         print("\nPlease enter 1 to calculate another progress score\nPlease enter 2 to go back to the menu\nPlease enter any other key to quit")
@@ -82,6 +113,7 @@ def Progress_Academy():
             Progress_Score()
         elif continue_option == '2':
             menu()
-
+        else:
+            sys.exit()
     menu()
 Progress_Academy()
