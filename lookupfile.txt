@@ -1,0 +1,191 @@
+Student 0080
+Average Score: 79.33
+Progress Score: -1.07
+
+Student 0096
+Average Score: 76.67
+Progress Score: 0.00
+
+Student 0287
+Average Score: 69.67
+Progress Score: -1.80
+
+Student 0392
+Average Score: 87.67
+Progress Score: 0.73
+
+Student 0457
+Average Score: 79.33
+Progress Score: 0.43
+
+Student 0586
+Average Score: 67.67
+Progress Score: -0.87
+
+Student 1010
+Average Score: 87.67
+Progress Score: 2.80
+
+Student 1026
+Average Score: 77.67
+Progress Score: 0.53
+
+Student 1172
+Average Score: 65.67
+Progress Score: -0.60
+
+Student 1231
+Average Score: 74.67
+Progress Score: -0.63
+
+Student 1515
+Average Score: 71.00
+Progress Score: -0.57
+
+Student 1807
+Average Score: 81.00
+Progress Score: -0.90
+
+Student 1949
+Average Score: 61.67
+Progress Score: -0.97
+
+Student 2189
+Average Score: 72.67
+Progress Score: -0.93
+
+Student 2386
+Average Score: 60.67
+Progress Score: -0.80
+
+Student 2861
+Average Score: 83.33
+Progress Score: 0.43
+
+Student 2965
+Average Score: 76.67
+Progress Score: 1.43
+
+Student 3129
+Average Score: 64.00
+Progress Score: -0.47
+
+Student 3133
+Average Score: 76.33
+Progress Score: 0.67
+
+Student 3692
+Average Score: 78.67
+Progress Score: 1.20
+
+Student 3986
+Average Score: 68.00
+Progress Score: -0.10
+
+Student 4517
+Average Score: 65.67
+Progress Score: -1.20
+
+Student 4644
+Average Score: 71.00
+Progress Score: -0.17
+
+Student 4695
+Average Score: 74.00
+Progress Score: 0.83
+
+Student 4851
+Average Score: 88.00
+Progress Score: 0.83
+
+Student 4900
+Average Score: 68.67
+Progress Score: -0.67
+
+Student 5101
+Average Score: 66.00
+Progress Score: -1.83
+
+Student 5327
+Average Score: 62.67
+Progress Score: -1.83
+
+Student 5665
+Average Score: 64.33
+Progress Score: -2.30
+
+Student 5733
+Average Score: 70.00
+Progress Score: 0.57
+
+Student 6073
+Average Score: 76.67
+Progress Score: -0.53
+
+Student 6472
+Average Score: 78.33
+Progress Score: -0.53
+
+Student 6497
+Average Score: 75.00
+Progress Score: 1.83
+
+Student 6583
+Average Score: 79.33
+Progress Score: 0.13
+
+Student 6727
+Average Score: 73.33
+Progress Score: 1.30
+
+Student 6765
+Average Score: 82.00
+Progress Score: 1.73
+
+Student 6911
+Average Score: 69.33
+Progress Score: 0.37
+
+Student 7459
+Average Score: 82.00
+Progress Score: 1.23
+
+Student 7560
+Average Score: 99.67
+Progress Score: 2.17
+
+Student 7564
+Average Score: 83.67
+Progress Score: 0.67
+
+Student 7717
+Average Score: 76.67
+Progress Score: 1.20
+
+Student 7978
+Average Score: 58.00
+Progress Score: -1.57
+
+Student 8570
+Average Score: 68.00
+Progress Score: -1.53
+
+Student 8616
+Average Score: 83.33
+Progress Score: 1.67
+
+Student 9093
+Average Score: 84.33
+Progress Score: 0.40
+
+Student 9409
+Average Score: 67.00
+Progress Score: -0.77
+
+Student 9725
+Average Score: 82.67
+Progress Score: 0.73
+
+Student 9729
+Average Score: 60.67
+Progress Score: -1.87
