@@ -13,4 +13,4 @@ Throughout the entire process of development, I was using both the test data of 
 
 One more decision I decided to make was to add a lookup function. I thought this would be useful considering the large number of test data that was available. I created a text file that contained all the test data and allowed the user to enter a student's number and find their scores. This feature could be further developed in the future to allow the user to add a new student's details to the database. 
 
-All these decisions led to my compiled system that had three essential features: A class that works out the average score, a class that works out the progress score and a function that looks up a certain student's details. The system is user-friendly and prevents the user from crashing the system through invalid input. 
+All these decisions led to my compiled system that had three essential features: A class that works out the average score, a class that works out the progress score and a function that looks up a certain student's details. The system is also user-friendly and prevents the user from crashing the system through invalid input. 
