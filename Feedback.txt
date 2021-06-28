@@ -1,1 +1,7 @@
+My feedback for the process is very positive, I enjoyed the exercise and found it to be interesting and challenging.
+I thoroughly enjoyed the experience as it allowed me to work through a logical problem that would be representative of the type of work I would be doing.
+This experience allowed me to gain key insight into the type of work I might be doing as a developer, which was very insightful.
 
+I do, however, have one concern. For Task 2, James Smith's data is incorrect for English. To get an average progress score of 0.57, it should be 65/57 not 57/65. If you use the formula correctly based on the incorrect data it produces an average progress score of 1.1, which does not match the expected 0.57.
+
+Overall, I found the experience very insightful and enjoyed carrying it out. 
